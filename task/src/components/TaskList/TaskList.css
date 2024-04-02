@@ -1,0 +1,16 @@
+.tasklist-container {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.tasklist-heading {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.tasklist-wrapper {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}

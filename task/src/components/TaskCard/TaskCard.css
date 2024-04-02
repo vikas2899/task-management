@@ -1,0 +1,45 @@
+.taskcard-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.taskcard-details {
+    margin-left: 15px;
+    flex: 2;
+}
+
+.taskcard-details-title {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.taskcard-details-due {
+    font-size: 12px;
+}
+
+.taskcard-controls {
+    display: flex;
+    gap: 4px
+}
+
+.taskcard-control-btn {
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.taskcard-control-btn:hover {
+    background: lightgray
+}
+
+.delete:hover {
+    background: rgb(255, 117, 117);
+}
+
+.taskcard-completed {
+    text-decoration: line-through;
+}

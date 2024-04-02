@@ -1,0 +1,23 @@
+.task-container {
+    margin-top: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.task-addBtn {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.task-addBtn:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+.task-wrapper {
+    margin-top: 30px;
+}
+
