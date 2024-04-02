@@ -1,5 +1,6 @@
 .navbar-container {
     font-size: 20px;
-    box-shadow: 1px 1px 1px 1px lightgray;
     padding: 20px;
+    color: white;
+    background-color: rgb(37, 36, 47);
 }

@@ -15,6 +15,7 @@ function TaskCard({ todo, onUpdateStatus, onDeleteTask }) {
     <div className='taskcard-container'>
       <div className='taskcard-check'>
         <input
+          className='taskcard-checkbox'
           type='checkbox'
           id='taskselect'
           defaultChecked={todo.status === 'completed'}
@@ -31,7 +32,6 @@ function TaskCard({ todo, onUpdateStatus, onDeleteTask }) {
           className={`taskcard-details-title ${
             todo.status === 'completed' ? 'taskcard-completed' : ''
           }`}
-          htmlFor='taskselect'
         >
           {todo.title}
         </label>

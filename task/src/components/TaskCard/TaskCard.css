@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+
 }
 
 .taskcard-details {
@@ -10,8 +11,9 @@
 }
 
 .taskcard-details-title {
-    font-weight: 500;
+    font-weight: 800;
     font-size: 14px;
+    color: rgb(37, 36, 47);
 }
 
 .taskcard-details-due {
@@ -21,6 +23,11 @@
 .taskcard-controls {
     display: flex;
     gap: 4px
+}
+
+.taskcard-checkbox {
+    width: 18px;
+    height: 18px;
 }
 
 .taskcard-control-btn {

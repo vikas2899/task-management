@@ -1,12 +1,43 @@
 {
   "todos": [
     {
-      "id": "1711778585882",
-      "title": "Car Service",
-      "dueby": "2023-04-21",
-      "priority": "Low",
-      "description": "Go to repair shop",
+      "id": "1712030178652",
+      "title": "Purchase Groceries",
+      "dueby": "2024-04-02",
+      "priority": "High",
+      "description": "Need to purchase groceries from super mart.",
       "status": "pending"
+    },
+    {
+      "id": "1712030230094",
+      "title": "Vehicle Servicing",
+      "dueby": "2024-04-10",
+      "priority": "Medium",
+      "description": "Bike + Car Servicing",
+      "status": "pending"
+    },
+    {
+      "id": "1712030280793",
+      "title": "Bug fixes on mobile application",
+      "dueby": "2024-04-05",
+      "priority": "High",
+      "description": "Fix urgent bug on expense application",
+      "status": "pending"
+    },
+    {
+      "id": "1712030323997",
+      "title": "Go to Gym",
+      "dueby": "2024-04-02",
+      "priority": "Urgent",
+      "description": "Workout",
+      "status": "pending"
+    },
+    {
+      "id": "1712031075446",
+      "title": "Learn React",
+      "dueby": "2024-04-10",
+      "priority": "Urgent",
+      "description": "Learn React"
     }
   ]
 }
